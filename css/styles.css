@@ -1,0 +1,16 @@
+body{
+    background-color: whitesmoke;
+}
+
+/*================= NAVBAR SECTION =================*/
+#navbar{
+    background-color: cornflowerblue;
+}
+/*================= CONTENT SECTION ================*/
+#content{
+    background-color: yellowgreen;
+}
+/*================= PLAYLIST SECTION ===============*/
+#playlist{
+    background-color: tomato;
+}
