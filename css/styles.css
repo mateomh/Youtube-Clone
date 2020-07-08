@@ -1,11 +1,58 @@
 body{
+    margin: 0px;
     background-color: whitesmoke;
 }
 
 /*================= NAVBAR SECTION =================*/
+.flex-container {
+    display: flex;
+    
+}
+
 #navbar{
     background-color: cornflowerblue;
+    height: 6vmin;
+    width: 100%;
+    background-color: white;
+    
+    
+
 }
+#navbar p{
+    padding: 0px;
+    margin: 0px;
+}
+.logo img{
+    padding: 8px;
+    max-width: 10vmin;
+}
+.search{
+    margin-top:auto;
+    margin-bottom: auto;
+    
+    width: 50%;
+}
+.searchicon{
+
+    max-width: 1vmin;
+    
+}
+#search{
+    margin-right: -5px;
+}
+.appicon{
+
+    width: 3vmin;
+    
+}
+
+.buttons{
+    display: flex;
+}
+
+
+
+
 /*================= CONTENT SECTION ================*/
 #content{
     background-color: yellowgreen;
