@@ -64,7 +64,9 @@ body{
     text-align:right;
     justify-content: flex-end;
 }
-
+input#search {
+    width: 250px;
+}
 
 
 
@@ -123,11 +125,22 @@ body{
 .user-info h3{
     display: inline-block;
 }
+button.subscribe {
+    background-color: red;
+    border: none;
+    width: 130px;
+    height: 20px;
+    color: white;
+    padding: 0px;
+}
+
+.user-info div{
+    width: 100%;
+}
 
 /*================= PLAYLIST SECTION ===============*/
 #playlist{
-    background-color: tomato;
-
+   
     width: 25%;
     position:absolute;
     right:0;
@@ -138,9 +151,33 @@ body{
 
 .video-list{
     list-style: none;
+    padding-left: 5%;
 }
 
 .playlist-title{
     display: inline-block;
     margin-left: 5%;
+    width: 50%;
+   
+    
+}
+
+.playlist-title p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+.thumb{
+    width: 110%;
+}
+.video-thumb-box{
+ width: 40%;
+ display: inline-block;
+ margin-bottom: 5%;
+}
+
+.playlist-title h3, h4, h5{
+    margin:0;
+    white-space: nowrap;
 }
