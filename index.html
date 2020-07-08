@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <section id="navbar" class="flex-container">
+    <section id="navbar" class="flex-container flex-navbar">
 
         <div class="logo">
 
@@ -24,10 +24,10 @@
         </div>
         <div class="buttons">
 
-            <div><img class="appicon" src="images/1.svg"></div>
-            <div><img class="appicon" src="images/2.svg"></div>
-            <div><img class="appicon" src="images/3.svg"></div>
-            <div><img class="appicon" src="images/4.svg"></div>
+            <div><a href="#"><img class="appicon" src="images/1.svg"></div></a>
+            <div><a href="#"><img class="appicon" src="images/2.svg"></a></div>
+            <div><a href="#"><img class="appicon" src="images/3.svg"></a></div>
+            <div><a href="#"><img class="appicon" src="images/4.svg"></a></div>
 
 
         </div>
@@ -43,33 +43,53 @@
         </iframe>
        </div>
        <div class="video-title">
-            <p>Video Title</p>
+            <h2>Video Title</h2>
        </div>
 
        <div class="video-info flex-container">
-            <div class="part1">
+            <div class="view-info">
                 14.002 visualizações • 7 de jul. de 2020
             </div>
-            <div class="part2">
-                <img class="icon" src="images/like.svg">
+            <div class="social-buttons">
+                <a href="#"><img class="icon" src="images/like.svg"></a>
                 1,3m
-                <img class="icon" src="images/dislike.svg">
+                <a href="#"><img class="icon" src="images/dislike.svg"></a>
                 19
-                <img class="icon" src="images/share.svg">
+                <a href="#"><img class="icon" src="images/share.svg"></a>
                 share
-                <img class="icon" src="images/playlist.svg">
+                <a href="#"><img class="icon" src="images/playlist.svg"></a>
                 save
             </div>
 
        </div>
-
+       <hr />
+       <div class="user-info flex-container"> 
+            <div>
+                <img class="avatar" src="./images/avatar.jpg" alt="avatar">
+                <h3>Youtube's name</h3>
+            </div>
+            <div class="social-buttons">
+                <button>Subscribe</button>
+            </div>
+       </div>
        
 
 
 
     </section>
     <section id="playlist">
-        <p>this is the sidebar</p>
+        <h2>Next Videos to Watch</h2>
+        <br/>
+        <ul class="video-list">
+            <li>
+                <img class="avatar" src="images/3.svg" />
+                <p class="playlist-title">video 1</p>
+            </li>
+            <li>    
+                <img class="avatar" src="images/4.svg" />
+                <p class="playlist-title">video 1</p>
+            </li>
+        </ul>
     </section>
     
 
