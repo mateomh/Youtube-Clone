@@ -87,7 +87,7 @@ input#search {
 .video{
 
     min-width: 100%;
-    min-height: 300px;
+    min-height: 55vmin;
 
 }
 .video-title p {
@@ -138,20 +138,24 @@ button.subscribe {
     width: 100%;
 }
 
+.video-description {
+    margin-left: 35px;
+}
+
 /*================= PLAYLIST SECTION ===============*/
 #playlist{
    
     width: 25%;
     position:absolute;
-    right:0;
-    top: 6vmin;
+    right:5%;
+    top: 10%;
     z-index: -1;
     
 }
 
 .video-list{
     list-style: none;
-    padding-left: 5%;
+    padding-left: 0px;
 }
 
 .playlist-title{
