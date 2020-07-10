@@ -1,21 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
+
 <body>
-    <section id="navbar">
-        <p>this is a navbar</p>
+    <section id="navbar" class="flex-container flex-navbar">
+
+        <div class="logo">
+
+            <img src="images/logo.png">
+
+        </div>
+
+        <div class="search">
+
+            <input type="text" placeholder="Search" id="search" name="searchbutton" />
+            <button><img class="searchicon" src="images/search.svg"></button>
+
+
+        </div>
+        <div class="buttons">
+
+            <div><a href="#"><img class="appicon" src="images/1.svg"></div></a>
+            <div><a href="#"><img class="appicon" src="images/2.svg"></a></div>
+            <div><a href="#"><img class="appicon" src="images/3.svg"></a></div>
+            <div><a href="#"><img class="appicon" src="images/4.svg"></a></div>
+
+
+        </div>
+
+
     </section>
+
+
     <section id="content">
-        <p>this is the content</p>
+        <div class="video-box">
+            <iframe class="video" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+            </iframe>
+        </div>
+        <div class="video-title">
+            <h2>Bohemian Rhapsody | Muppet Music Video | The Muppets</h2>
+        </div>
+
+        <div class="video-info flex-container">
+            <div class="view-info">
+                87.327.816 views • 23 de nov. de 2009
+            </div>
+            <div class="social-buttons">
+                <a href="#"><img class="icon" src="images/like.svg"></a>
+                522k
+                <a href="#"><img class="icon" src="images/dislike.svg"></a>
+                30k
+                <a href="#"><img class="icon" src="images/share.svg"></a>
+                Share
+                <a href="#"><img class="icon" src="images/playlist.svg"></a>
+                Save
+            </div>
+
+        </div>
+        <hr />
+        <div class="user-info flex-container">
+            <div class="channel-info">
+                <img class="avatar" src="./images/avatar.jpg" alt="avatar">
+                <h3>The Muppets</h3>
+            </div>
+            <div class="social-buttons">
+                <button class="subscribe"><b>Subscribe</b></button>
+            </div>
+        </div>
+
+        <div class="video-description">
+
+            <p>The Muppets' Musical Gang is back at it with their rendition of Queen’s Bohemian Rhapsody!</p>
+
+            <p> for all new videos from The Muppets! ► http://www.youtube.com/subscription_c...
+            Watch more Muppet Music Videos► https://www.youtube.com/playlist?list...</p>
+
+            <p>Inspired by one off the all time greats, QUEEN, the Muppets present their rendition of the classic,
+            "Bohemian Rhapsody." Originally released in 1975, this classic with a Muppets Twist is sure to keep every
+            music lover, and Muppet fan satisfied.
+            Watch more of the best moments, music videos, and laughs from The Muppets! ►
+            https://www.youtube.com/playlist?list...</p>
+
+            <p><br>Get more from The Muppets!
+            <br>http://disney.com/muppets
+            <br>Facebook: https://www.facebook.com/Muppets
+            <br>Twitter: http://www.twitter.com/MuppetsStudio
+            <br>Tumblr: http://themuppets.tumblr.com
+            <br>Instagram: http://www.instagram.com/themuppets</p>
+
+        </div>
+
+
+
+
     </section>
     <section id="playlist">
-        <p>this is the sidebar</p>
+        <h4>Next Videos to Watch</h4>
+
+        <ul class="video-list">
+            <li>
+                <div class="video-thumb-box">
+                    <img class="thumb" src="images/thumb.webp" />
+                </div>
+                <div class="playlist-title">
+                    <h3>Recipes with The Swedish Chef</h3>
+                    <h4>The Muppets</h4>
+                    <h5>48M views - 10 years ago</h5>
+                </div>
+
+
+
+            </li>
+
+            <li>
+                <div class="video-thumb-box">
+                    <img class="thumb" src="images/thumb2.webp" />
+                </div>
+                <div class="playlist-title">
+                    <h3>Song Compilation</h3>
+                    <h4>The Muppets</h4>
+                    <h5>822K views - 5 years ago</h5>
+                </div>
+
+
+
+            </li>
+            <li>
+                <div class="video-thumb-box">
+                    <img class="thumb" src="images/thumb3.webp" />
+                </div>
+                <div class="playlist-title">
+                    <h3>Top 80s & 90s Cartoon Songs</h3>
+                    <h4>Nasson</h4>
+                    <h5>181K views - 1 year ago</h5>
+                </div>
+
+
+
+            </li>
+
+            <li>
+                <div class="video-thumb-box">
+                    <img class="thumb" src="images/thumb4.webp" />
+                </div>
+                <div class="playlist-title">
+                    <h3>Un Poco Loco (De "Coco")</h3>
+                    <h4>Disney Music</h4>
+                    <h5>433M views - 2 years ago</h5>
+                </div>
+
+
+
+            </li>
+            <li>
+                <div class="video-thumb-box">
+                    <img class="thumb" src="images/thumb5.webp" />
+                </div>
+                <div class="playlist-title">
+                    <h3>Looney Tunes</h3>
+                    <h4>WB kids</h4>
+                    <h5>Recommended for you</h5>
+                </div>
+
+
+
+            </li>
+
+            <li>
+                <div class="video-thumb-box">
+                    <img class="thumb" src="images/thumb6.webp" />
+                </div>
+                <div class="playlist-title">
+                    <h3>Take Me Home Country Roads</h3>
+                    <h4>Kids UK 2018</h4>
+                    <h5>Recommended for you</h5>
+                </div>
+
+
+
+            </li>
+
+        </ul>
     </section>
-    
+
+
+    <div>Icons made by <a href="https://www.flaticon.com/authors/bqlqn" title="bqlqn">bqlqn</a> from <a
+            href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 </body>
+
 </html>
