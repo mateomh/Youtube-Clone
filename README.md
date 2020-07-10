@@ -6,6 +6,10 @@
 
 This was the main page we tried to replicate using just CSS and HTML, so no actual videos are linked in the project or dynamic data shown.
 
+## Live Version
+
+- URL: https://rawcdn.githack.com/mateomh/Youtube-Clone/e2c280df983c54d2c5e4c619ead76a1e7e3df721/index.html 
+
 ## Built With
 
 - HTML, CSS,
@@ -17,10 +21,14 @@ This was the main page we tried to replicate using just CSS and HTML, so no actu
 👤 **Mateo mojica**
 
 - Github: [@mateomh](https://github.com/mateomh)
+- Twitter: [@Mateom77199196]
+- LinkedIn: http://linkedin.com/in/mateo-mojica-hernandez
 
 👤 **Rafael Cavalheiro**
 
 - Github: [@rgcavalheiro](https://github.com/githubhandle)
+- Twitter: [@rgcavalheiro]
+- LinkedIn: linkedin.com/in/rafael-cavalheiro-00415b94
 
 ## 🤝 Contributing
 
