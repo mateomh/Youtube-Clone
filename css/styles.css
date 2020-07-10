@@ -162,8 +162,7 @@ button.subscribe {
     display: inline-block;
     margin-left: 5%;
     width: 50%;
-   
-    
+    vertical-align:top;
 }
 
 .playlist-title p {
