@@ -2,13 +2,13 @@
 
 > The objective of the project is to mimic a youtube video page with the navbar, the video display section and the sidebar with the upcomming videos. The base page taken was the current youtube video page .
 
-![screenshot](./screenshot.png)
+![screenshot](./screenshot2.png)
 
 This was the main page we tried to replicate using just CSS and HTML, so no actual videos are linked in the project or dynamic data shown.
 
 ## Live Version
 
-- URL: https://rawcdn.githack.com/mateomh/Youtube-Clone/e2c280df983c54d2c5e4c619ead76a1e7e3df721/index.html 
+- URL: https://raw.githack.com/mateomh/Youtube-Clone/youtube_clone_page/index.html
 
 ## Built With
 
